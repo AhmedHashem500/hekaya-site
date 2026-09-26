@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HEKAYA · حكاية — all our accounts</title>
+<meta name="description" content="Every HEKAYA account in one place: YouTube, Facebook, Instagram and TikTok, in Arabic and English.">
+<link rel="stylesheet" href="style.css">
+<style>
+  .links{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+  .links a{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--line);
+    border-radius:12px;padding:12px 16px;text-decoration:none;color:var(--text)}
+  .links a:hover,.links a:focus-visible{border-color:var(--accent);outline:none}
+  .links svg{width:28px;height:28px;flex:none}
+  .links .name{font-weight:700}
+  .links .handle{color:var(--dim);font-size:14px;direction:ltr;unicode-bidi:isolate}
+  .links .text{display:grid}
+  section{margin-top:28px}
+  section[lang=en]{direction:ltr;text-align:left}
+  .yt-note{color:var(--dim);font-size:14px;margin-top:6px}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="igg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#FEDA75"/><stop offset=".3" stop-color="#FA7E1E"/><stop offset=".55" stop-color="#D62976"/>
+      <stop offset=".8" stop-color="#962FBF"/><stop offset="1" stop-color="#4F5BD5"/>
+    </linearGradient>
+    <path id="ttn" d="M13.6 4h2.6c.2 1.8 1.5 3.2 3.3 3.4v2.6c-1.2 0-2.4-.4-3.3-1v5.2a4.7 4.7 0 1 1-4.7-4.7h.5v2.6h-.5a2.1 2.1 0 1 0 2.1 2.1z"/>
+  </defs>
+  <symbol id="yt" viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="5" fill="#FF0000"/><path d="M10 8.6v6.8l5.8-3.4z" fill="#fff"/></symbol>
+  <symbol id="fb" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#0866FF"/><path d="M13.3 23v-8h2.6l.4-3.1h-3V9.9c0-.9.3-1.5 1.5-1.5h1.6V5.6c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.4H7.6V15h2.6v8z" fill="#fff"/></symbol>
+  <symbol id="ig" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="6.5" fill="url(#igg)"/><rect x="5.5" y="5.5" width="13" height="13" rx="4" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="12" cy="12" r="3.1" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="16.1" cy="7.9" r="1" fill="#fff"/></symbol>
+  <symbol id="tt" viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="5.5" fill="#000"/><use href="#ttn" fill="#25F4EE" transform="translate(-.9 -.7)"/><use href="#ttn" fill="#FE2C55" transform="translate(.9 .7)"/><use href="#ttn" fill="#fff"/></symbol>
+</svg>
+
+<header><div class="wrap">
+  <h1>حكاية <span>HEKAYA</span></h1>
+  <p class="tag">حكايات حقيقية حصلت بجد… بس صعب تتصدق.</p>
+</div></header>
+
+<main class="wrap">
+  <section lang="ar" aria-labelledby="ar-h" style="margin-top:0">
+    <h2 id="ar-h">بالعربي</h2>
+    <ul class="links">
+      <li><a href="https://www.instagram.com/hekayatruestories_ar/" rel="noopener"><svg aria-hidden="true"><use href="#ig"/></svg>
+        <span class="text"><span class="name">إنستجرام</span><span class="handle">@hekayatruestories_ar</span></span></a></li>
+      <li><a href="https://www.tiktok.com/@hekayatruestories_ar" rel="noopener"><svg aria-hidden="true"><use href="#tt"/></svg>
+        <span class="text"><span class="name">تيك توك</span><span class="handle">@hekayatruestories_ar</span></span></a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=61594454075769" rel="noopener"><svg aria-hidden="true"><use href="#fb"/></svg>
+        <span class="text"><span class="name">فيسبوك</span><span class="handle">حكاية</span></span></a></li>
+    </ul>
+  </section>
+
+  <section lang="en" aria-labelledby="en-h">
+    <h2 id="en-h">English</h2>
+    <ul class="links">
+      <li><a href="https://www.instagram.com/hekayatruestories/" rel="noopener"><svg aria-hidden="true"><use href="#ig"/></svg>
+        <span class="text"><span class="name">Instagram</span><span class="handle">@hekayatruestories</span></span></a></li>
+      <li><a href="https://www.tiktok.com/@hekayatruestories" rel="noopener"><svg aria-hidden="true"><use href="#tt"/></svg>
+        <span class="text"><span class="name">TikTok</span><span class="handle">@hekayatruestories</span></span></a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=61594277645400" rel="noopener"><svg aria-hidden="true"><use href="#fb"/></svg>
+        <span class="text"><span class="name">Facebook</span><span class="handle">Hekaya</span></span></a></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="yt-h">
+    <h2 id="yt-h">YouTube · يوتيوب</h2>
+    <ul class="links">
+      <li><a href="https://www.youtube.com/@HEKAYATrueStories" rel="noopener"><svg aria-hidden="true"><use href="#yt"/></svg>
+        <span class="text"><span class="name">HEKAYA</span><span class="handle">@HEKAYATrueStories</span></span></a></li>
+    </ul>
+    <p class="yt-note">كل فيديو فيه الصوت العربي: من ⚙ اختار Audio track ← Arabic.</p>
+    <p class="yt-note" lang="en" dir="ltr" style="text-align:left">Every video has an Arabic audio track: ⚙ → Audio track → Arabic.</p>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <nav><a href="index.html">HEKAYA</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</div></footer>
+</body>
+</html>
